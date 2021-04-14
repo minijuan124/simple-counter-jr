@@ -1,5 +1,15 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
+.box{
+    text-align: center;
+}
+.box div{
+    display: inline-block;
+    font-size: 80px;
+    line-height: 80px;
+    background: black;
+    color: blue;
+    padding: 20px;
+}
 /* 
 
     You can write your own styles here...
