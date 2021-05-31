@@ -15,6 +15,9 @@ import { checkPropTypes } from "prop-types";
 function Counter(props) {
 	return (
 		<div className="box">
+			<div className="clock">
+				<i className="far fa-clock"></i>
+			</div>
 			<div className="fourth">{props.fourthDigit % 10}</div>
 			<div className="third">{props.thirdDigit % 10}</div>
 			<div className="second">{props.secondDigit % 10}</div>

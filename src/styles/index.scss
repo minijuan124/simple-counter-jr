@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap.scss";
 .box{
     text-align: center;
+    background: black;
 }
 .box div{
     display: inline-block;
@@ -9,6 +10,7 @@
     background: black;
     color: blue;
     padding: 20px;
+    margin: 3px;
 }
 /* 
 
