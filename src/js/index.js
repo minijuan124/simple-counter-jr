@@ -22,7 +22,7 @@ function Counter(props) {
 		</div>
 	);
 }
-Counter.prototypes = {
+Counter.propTypes = {
 	fourthDigit: PropTypes.number,
 	thirdDigit: PropTypes.number,
 	secondDigit: PropTypes.number,
